@@ -1,1 +1,51 @@
 /* Styles for the Advanced Markup assignment. */
+header
+{
+  background-color: lightblue;
+}
+
+aside 
+{
+  float: right;
+  background-color: lightcoral;
+}
+
+section 
+{
+  background-color: lightgreen;
+}
+
+footer
+{
+  background-color: lightgoldenrodyellow;
+}
+
+
+/*nav 
+{
+  background-color: red;
+  height: 50px;
+}*/
+
+.top-nav
+{
+  display: inline-block;
+  height: 50px;
+  width: 300px;
+  
+  background-color: red;
+  
+  list-style-type: none;
+  text-decoration: none;
+ 
+}
+
+li a
+{
+  text-decoration: none;  
+}
+
+table, th, td 
+{
+  border: 1px solid-black;
+}
