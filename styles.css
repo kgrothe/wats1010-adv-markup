@@ -1,142 +1,152 @@
 /*--------------------------------------------*/
-/*---- WATS 3010: styles for 3 page site -----*/
+
+/*---- WATS 3010: styles for mini site -------*/
+
 /*--------------------------------------------*/
 
-body
-{
+body {
   font-family: sans-serif;
 }
 
-header
-{
-  background-color: #6f7782;
-
+header {
+  background-color: #231c15;
   text-align: center;
   padding: 20px;
-  
 }
 
-
-nav ul
-{
-  display: inline-block;
-  height: 50px;
-  width: 90%;
-  
-  text-align: center;
-  
-  background-color: #3d3f42;
-  
-  padding: 10px;
-  
- 
+h1 {
+  color: whitesmoke;
+  padding-bottom: 20px;
 }
 
+nav ul {
+  padding: 20px;
+}
 
-nav ul li
-{
+nav ul li {
   display: inline-block;
   list-style-type: none;
- 
 }
 
-nav ul li a
-{
-  padding: 80px;
+nav ul li a {
+  padding: 20px 70px 20px 70px;
+  border: 2px solid black;
+  margin: 20px 25px;
   text-decoration: none;
+  text-align: center;
+  font-weight: bolder;
+  background-color: #e6dbcd;
 }
-.active
-{
-  color: lightgray;
-}
- 
 
-aside 
-{
+a:visited {
+  color: #231c15;
+}
+
+a:hover {
+  color: lightsteelblue;
+}
+
+a.active {
+  color: darkblue;
+}
+
+aside {
   float: right;
-  background-color: #6f7782;
+  background-color: #e6dbcd;
   width: 300px;
-  padding: 20px;
-  margin: 10px;
+  padding: 30px;
+  margin: 30px 30px 80px 30px;
 }
 
-figure
-{
+figure {
   float: left;
   width: 250px;
 }
-img
-  {
+
+img {
   width: 200px;
   height: auto;
   border-style: double;
   border-width: 10px;
-    border-color: #231c15;
-      
-  
-   
-  margin: 18px; 
-  
-  }
-figcaption
-{
-  font-style: italic;
-  font-size: smaller;
+  border-color: #231c15;
+  margin: 18px;
 }
 
+figcaption {
+  font-style: italic;
+  font-size: smaller;
+  margin-bottom: 50px;
+}
 
+dl {
+  font-style: italic;
+}
 
-section 
-{
-  background-color: lightgray;
-  padding: 30px;
+dl dt {
+  font-weight: bold;
+}
+
+section {
+  padding: 40px;
   font-family: serif;
 }
 
-section h2
-{
-  
+section h2 {
   position: relative;
-  left: 3%;
+  left: 40%;
+  margin-bottom: 30px;
 }
 
-table 
-{
-    background-color: whitesmoke;
+.smalltext {
+  font-style: italic;
+}
+
+table {
+  background-color: whitesmoke;
   border-collapse: collapse;
-    width: 50%;
-    position: relative;
+  width: 50%;
+  position: relative;
   left: 25%;
-    
 }
 
-table, th, td
-{
-    border: 1px solid black;
-    padding: 10px;
+table,
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
 }
-th
-{
+
+th {
   text-align: left;
-  }
+}
 
-.poem li
-{
+.poem {
+  padding: 40px;
+}
+
+.poem li {
   display: block;
   position: relative;
   left: 37%;
-  
   list-style-type: none;
   font-family: serif;
   line-height: 1.6;
-
 }
 
-
-footer
-{
-  background-color: lightgoldenrodyellow;
+footer {
+  background-color: #b1a78f;
+  /*text-align: center;*/
+  padding: 20px;
 }
 
+footer nav {
+  text-align: center;
+}
 
+footer p {
+  font-size: smaller;
+}
 
+.bibliography {
+  font-size: smaller;
+}
