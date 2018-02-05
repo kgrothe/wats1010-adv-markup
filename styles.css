@@ -29,13 +29,14 @@ nav ul li {
 }
 
 nav ul li a {
-  padding: 20px 70px 20px 70px;
+  background-color: #f0f0f0;
+    padding: 20px 70px 20px 70px;
   border: 2px solid black;
   margin: 20px 25px;
   text-decoration: none;
   text-align: center;
   font-weight: bolder;
-  background-color: #e6dbcd;
+  
 }
 
 a:visited {
@@ -43,16 +44,16 @@ a:visited {
 }
 
 a:hover {
-  color: lightsteelblue;
+  color: darkmagenta;
 }
 
 a.active {
-  color: darkblue;
+  color: #6a5acd;
 }
 
 aside {
   float: right;
-  background-color: #e6dbcd;
+  background-color: #f0f0f0;
   width: 300px;
   padding: 30px;
   margin: 30px 30px 80px 30px;
@@ -134,8 +135,7 @@ th {
 }
 
 footer {
-  background-color: #b1a78f;
-  /*text-align: center;*/
+  background-color: #b4b4b4;
   padding: 20px;
 }
 
